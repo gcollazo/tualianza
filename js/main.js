@@ -2,7 +2,11 @@ function selectionMade(event, selects) {
   let select = event.target;
   let img = document.getElementById(select.id.replace("c", ""));
 
-  img.src = `img/candidatos/${select.value}`;
+  if (select.value === "") {
+    img.src = `img/candidatos/placeholder.png`;
+  } else {
+    img.src = `img/candidatos/${select.value}`;
+  }
 
   let allSelected = false;
 

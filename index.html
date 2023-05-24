@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/pico.min.css">
+  <title>Tu Alianza</title>
+  <meta name="candidatos"
+    content='{"candidatos":[{"name":"Ada Norah Henríquez","img":"ada.png"},{"name":"Alexandra Lúgaro","img":"alexandra.png"},{"name":"Ana Irma Rivera Lassén","img":"ana.png"},{"name":"Caridad Pierluisi","img":"caridad.png"},{"name":"César Vázquez","img":"cesar.png"},{"name":"Charlie Delgado Altieri","img":"charlie.png"},{"name":"Rafael Cox Alomar","img":"cox.png"},{"name":"Edwin Irizarry Mora","img":"edwin.png"},{"name":"Eva Prados","img":"eva.png"},{"name":"Jennifer González","img":"jenniffer.png"},{"name":"Jesús Manuel Ortiz","img":"jesus.png"},{"name":"José Bernardo Márquez","img":"jose.png"},{"name":"Juan Dalmau","img":"juan.png"},{"name":"Luis Irizarry Pabón","img":"luis.png"},{"name":"Manuel Natal","img":"manuel.png"},{"name":"María de Lourdes Santiago","img":"maria.png"},{"name":"Mariana Nogales Molinelli","img":"mariana.png"},{"name":"Pablo José Hernández","img":"pablo.png"},{"name":"Pedro Pierluisi","img":"pedro.png"},{"name":"Rafael Bernabe Riefkohl","img":"rafael.png"},{"name":"Ricardo Rosselló","img":"ricardo.png"},{"name":"Rosa Seguí","img":"rosa.png"}]}'>
+</head>
+
+<body>
+  <main class="container">
+    <hgroup style="text-align:center">
+      <h1>Tu Alianza</h1>
+      <p>Crea tu propia alianza y no te dejes engañar</p>
+    </hgroup>
+
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th></th>
+            <th><img src="img/partidos/pnp.png" alt="Partido Nuevo Progresista"></th>
+            <th><img src="img/partidos/ppd.png" alt="Partido Popular Democrático"></th>
+            <th><img src="img/partidos/pip.png" alt="Partido Independentista Puertorriqueño"></th>
+            <th><img src="img/partidos/mvc.png" alt="Movimiento Victoria Ciudadana"></th>
+            <th><img src="img/partidos/pd.png" alt="Proyecto Dignidad"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <p><strong>GOBERNADOR(A)</strong></p>
+              <p><strong>GOVERNOR</strong></p>
+            </th>
+            <td>
+              <img id="A1" src="img/candidatos/placeholder.png" alt="Jenniffer González">
+              <select class="candidatos" id="cA1"></select>
+            </td>
+            <td>
+              <img id="B1" src="img/candidatos/placeholder.png" alt="Jenniffer González">
+              <select class="candidatos" id="cB1"></select>
+            </td>
+            <td>
+              <img id="C1" src="img/candidatos/placeholder.png" alt="Jenniffer González">
+              <select class="candidatos" id="cC1"></select>
+            </td>
+            <td>
+              <img id="D1" src="img/candidatos/placeholder.png" alt="Jenniffer González">
+              <select class="candidatos" id="cD1"></select>
+            </td>
+            <td>
+              <img id="E1" src="img/candidatos/placeholder.png" alt="Jenniffer González">
+              <select class="candidatos" id="cE1"></select>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p><strong>COMISIONADO(A) RESIDENTE</strong></p>
+              <p><strong>RESIDENT COMMISSIONER</strong></p>
+            </th>
+            <td>
+              <img id="A2" src="img/candidatos/placeholder.png" alt="Jenniffer González">
+              <select class="candidatos" id="cA2"></select>
+            </td>
+            <td>
+              <img id="B2" src="img/candidatos/placeholder.png" alt="Jenniffer González">
+              <select class="candidatos" id="cB2"></select>
+            </td>
+            <td>
+              <img id="C2" src="img/candidatos/placeholder.png" alt="Jenniffer González">
+              <select class="candidatos" id="cC2"></select>
+            </td>
+            <td>
+              <img id="D2" src="img/candidatos/placeholder.png" alt="Jenniffer González">
+              <select class="candidatos" id="cD2"></select>
+            </td>
+            <td>
+              <img id="E2" src="img/candidatos/placeholder.png" alt="Jenniffer González">
+              <select class="candidatos" id="cE2"></select>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <section style="margin-top: 100px;" class="grid">
+      <button class="contrast" onclick="window.location.reload();">Reset</button>
+      <button id="downloadButton">Descargar</button>
+    </section>
+  </main>
+  <footer class="container" style="text-align:center">
+    <small>
+      ¿Quieres otros candidatos?<br>
+      Somete tu sugerencia en <a href="https://github.com/gcollazo/tualianza">GitHub</a>
+    </small>
+  </footer>
+  <script src="js/html2canvas.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

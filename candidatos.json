@@ -6,7 +6,6 @@
     { "name": "Caridad Pierluisi", "img": "caridad.png" },
     { "name": "César Vázquez", "img": "cesar.png" },
     { "name": "Charlie Delgado Altieri", "img": "charlie.png" },
-    { "name": "Rafael Cox Alomar", "img": "cox.png" },
     { "name": "Edwin Irizarry Mora", "img": "edwin.png" },
     { "name": "Eva Prados", "img": "eva.png" },
     { "name": "Jennifer González", "img": "jenniffer.png" },
@@ -20,6 +19,7 @@
     { "name": "Pablo José Hernández", "img": "pablo.png" },
     { "name": "Pedro Pierluisi", "img": "pedro.png" },
     { "name": "Rafael Bernabe Riefkohl", "img": "rafael.png" },
+    { "name": "Rafael Cox Alomar", "img": "cox.png" },
     { "name": "Ricardo Rosselló", "img": "ricardo.png" },
     { "name": "Rosa Seguí", "img": "rosa.png" }
   ]

@@ -22,7 +22,7 @@ function selectionMade(event, selects) {
   }
 }
 
-function main() {
+async function main() {
   const downloadButton = document.getElementById("downloadButton");
 
   const cells = {
@@ -40,9 +40,8 @@ function main() {
 
   const selects = document.querySelectorAll("select.candidatos");
 
-  const candidatosJson = JSON.parse(
-    document.querySelector("meta[name='candidatos']").content
-  );
+  const candidatosReq = await fetch("candidatos.json");
+  const candidatosJson = await candidatosReq.json();
 
   for (let select of selects) {
     let opt = document.createElement("option");
